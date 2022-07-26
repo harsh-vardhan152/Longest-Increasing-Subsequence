@@ -1,15 +1,20 @@
 package subsequence;
 
-import java.util.*;
+//importing java util package for deceleration of array list
+import java.util.ArrayList;
+
+
 
 public class LongestIncreasingSubsequence {
 
 	public static void main(String args[]) {
+		//Declare the array
 		int arr2[] = { 12, 4, 20, 1, 24, 15, 34, 50, 7, 97 };
+		//Taking array length in another variable 
 		int arrLenght = arr2.length;
 		System.out.println("The Lenghth of required Increasing Sequence is  =  " + inSub(arr2, arrLenght));
 	}
-
+	//Deceleration of array list
 	public static ArrayList<ArrayList<Integer>> s = new ArrayList<>();
 	public static ArrayList<Integer> q = new ArrayList<>();
 
